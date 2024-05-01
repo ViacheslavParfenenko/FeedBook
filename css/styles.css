@@ -3,6 +3,21 @@
 ::before {
   box-sizing: border-box;
 }
+ .cover-container {
+  max-width: 1512px;
+  height: 820px;
+  margin: auto;
+  background:radial-gradient(78.29% 78.29% at 50% 41.83%, rgba(15, 14, 61, 0.675) 38.5%, rgba(16, 16, 58, 0.645) 54.5%, rgba(21, 20, 48, 0.2775) 100%); ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 188px 0;
+  /* background-image: linear-gradient(
+     rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7) 
+    ),
+    url(); */
+}
 
 body {
   font-family: "Raleway", sans-serif;
@@ -70,6 +85,7 @@ img {
   flex-grow: 1;
   align-items: center;
   gap: 76px;
+  justify-content: space-between;
 }
 
 
@@ -96,6 +112,8 @@ img {
 
 .right-panel {
   display: flex;
+  align-items: center;
+  margin-right: 56px;
 
 }
 
@@ -121,7 +139,7 @@ img {
 .dropbtn {
   background: url('"https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png" no-repeat scroll center center')
     no-repeat left center;
-  padding-left: 25px;
+  /* padding-left: 25px; */
   width: 40px;
 }
 
@@ -141,7 +159,7 @@ img {
 }
 
 .dropdown-content a:last-child {
-  background: #434455;
+  background: #000000;
 }
 
 .Log-in-button {
@@ -157,6 +175,7 @@ img {
   letter-spacing: 0.04em;
   min-width: 175px;
   height: 48px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
   border: none;
   background-color: #ffffff;
@@ -174,3 +193,4 @@ img {
   margin-left: 16px;
   fill: #363636;
 }
+/* MAIN */
